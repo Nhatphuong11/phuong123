@@ -1,0 +1,59 @@
+.page-title h1{
+    color: red;
+    margin: 30px 0;
+    
+}
+.page-title-mini{
+    background-color: wheat;
+    margin-bottom: 50px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table thead tr {
+    background-color: rgb(29, 206, 147);
+    color: #ffffff;
+    padding: 30px;
+}
+
+.table tr td {
+    padding: 16px;
+}
+
+.table tr {
+    border-bottom: 1px solid #ced4da;
+}
+
+.table tbody tr:last-child {
+    border-bottom: 2px solid rgb(29, 206, 147);
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #eeebeb;
+}
+
+.table img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.title {
+    margin-top: 50px;
+}
+.title h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-delete{
+    background-color: #6c1717;
+    color: #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-clear{
+    background-color: #9f4747;
+    color: #eeebeb;
+    padding: 10px 5px;
+}
